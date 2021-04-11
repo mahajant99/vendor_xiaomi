@@ -81,8 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/surya/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/surya/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
-    vendor/xiaomi/surya/proprietary/vendor/etc/qdcm_calib_data_nt36672c_huaxing_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672c_huaxing_fhd_video_mode_dsi_panel.xml \
-    vendor/xiaomi/surya/proprietary/vendor/etc/qdcm_calib_data_nt36672c_tianma_fhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672c_tianma_fhd_video_mode_dsi_panel.xml \
     vendor/xiaomi/surya/proprietary/vendor/etc/sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/sdr_config.cfg \
     vendor/xiaomi/surya/proprietary/vendor/etc/sensors/config/adux1050_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/adux1050_0.json \
     vendor/xiaomi/surya/proprietary/vendor/etc/sensors/config/bmi160_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi160_0.json \
