@@ -129,92 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/xiaomi/surya/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
     vendor/xiaomi/surya/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/descriptor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/descriptor.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/nanopb.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/nanopb.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/qti_gravity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/qti_gravity.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_accel.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_accel.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_accel_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_accel_cal.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_activity_recognition.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_activity_recognition.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_ambient_light.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ambient_light.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_ambient_temperature.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ambient_temperature.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_amd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_amd.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_aont.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_aont.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_async_com_port.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_async_com_port.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_basic_gestures.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_basic_gestures.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_bring_to_ear.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_bring_to_ear.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_busrw.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_busrw.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_cal.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_ccd_ttw.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ccd_ttw.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_ccd_walk.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ccd_walk.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_client.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_client.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_cmc.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_cmc.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_cmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_cmd.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_da_test.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_da_test.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_dae.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_dae.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_data_acquisition_engine.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_data_acquisition_engine.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_device_mode.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_device_mode.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_device_orient.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_device_orient.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_diag.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_diag.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_diag_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_diag_sensor.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_distance_bound.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_distance_bound.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_dpc.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_dpc.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_ext_svc.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ext_svc.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_facing.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_facing.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_fmv.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_fmv.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_formatter.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_formatter.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_fw.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_fw.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_game_rv.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_game_rv.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_geomag_rv.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_geomag_rv.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_gravity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_gravity.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_gyro.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_gyro.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_gyro_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_gyro_cal.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_gyro_rot_matrix.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_gyro_rot_matrix.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_hall.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_hall.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_heart_beat.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_heart_beat.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_heart_rate.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_heart_rate.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_hinge_angle.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_hinge_angle.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_humidity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_humidity.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_interrupt.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_interrupt.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_mag.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mag.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_mag_cal.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mag_cal.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_mcmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mcmd.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_motion_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_motion_detect.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_multishake.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_multishake.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_oem1.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_oem1.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_offbody_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_offbody_detect.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_pedometer.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pedometer.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_pedometer_wrist.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pedometer_wrist.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_physical_sensor_test.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_physical_sensor_test.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_pose_6dof.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pose_6dof.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_ppg.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ppg.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_pressure.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_pressure.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_proximity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_proximity.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_psmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_psmd.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_registry.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_registry.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_remote_proc_state.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_remote_proc_state.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_resampler.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_resampler.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_rgb.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_rgb.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_rmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_rmd.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_rotv.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_rotv.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_sar.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sar.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_sensor_temperature.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sensor_temperature.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_sig_motion.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sig_motion.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_signal_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_signal_sensor.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_sim.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sim.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_sim_legacy.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sim_legacy.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_std.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_std_event_gated_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std_event_gated_sensor.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_std_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std_sensor.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_std_type.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_std_type.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_step_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_step_detect.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_suid.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_suid.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_thermopile.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_thermopile.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_threshold.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_threshold.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_tilt.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_tilt.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_tilt_to_wake.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_tilt_to_wake.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_timer.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_timer.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_ultra_violet.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ultra_violet.proto \
-    vendor/xiaomi/surya/proprietary/vendor/etc/sensors/proto/sns_wrist_tilt_gesture.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_wrist_tilt_gesture.proto \
     vendor/xiaomi/surya/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/surya/proprietary/vendor/etc/thermal-4k.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-4k.conf \
     vendor/xiaomi/surya/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
@@ -227,70 +141,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/etc/thermal-phone.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-phone.conf \
     vendor/xiaomi/surya/proprietary/vendor/etc/thermal-tgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-tgame.conf \
     vendor/xiaomi/surya/proprietary/vendor/etc/thermald-devices.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermald-devices.conf \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/AcousticGuitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AcousticGuitar_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Bottle_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Bottle_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Bubble_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Bubble_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Bullfrog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Bullfrog_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Burst_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Burst_RTP.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Candy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Candy_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Carousel_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Carousel_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Celesta_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Celesta_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Charge_Wire_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Charge_Wire_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Charge_Wireless_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Charge_Wireless_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Childhood_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Childhood_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Chirp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Chirp_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Clank_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Clank_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Country_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Country_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Cowboy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Cowboy_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Crystal_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Crystal_RTP.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/Drv2624Date.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/Drv2624Date.ini \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/ExampleData.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ExampleData.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/FOD_Motion1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion1_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/FOD_Motion2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion2_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/FOD_Motion3_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion3_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/FOD_Motion4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FOD_Motion4_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/FaceID_Wrong1_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FaceID_Wrong1_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/FaceID_Wrong2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FaceID_Wrong2_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/FadeIn_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FadeIn_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/FadeOut_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/FadeOut_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Fairyland_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fairyland_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Fantasy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fantasy_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Field_Trip_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Field_Trip_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Flute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Flute_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Fresh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Fresh_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Frog_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Frog_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Gesture_UpHold_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_UpHold_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Gesture_UpSlide_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Gesture_UpSlide_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Glee_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Glee_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Guitar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Guitar_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Harp_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Harp_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Ice_Latte_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Ice_Latte_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/IncomingMessage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/IncomingMessage_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Kung_Fu_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Kung_Fu_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Lollipop_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Lollipop_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/MessageSent_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MessageSent_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/MiClassicRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiClassicRemix_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/MiHouse_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiHouse_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/MiJazz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiJazz_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/MiMix2_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiMix2_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/MiRemix_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/MiRemix_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Mi_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Mi_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Moment_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Moment_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Mountain_Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Mountain_Spring_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/NFC_card_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NFC_card_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/NFC_card_slow_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NFC_card_slow_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/NotificationXylophone_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/NotificationXylophone_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Orange_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Orange_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Potion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Potion_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Radar_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Radar_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Space_Age_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Space_Age_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Spring_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Spring_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Swoosh_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Swoosh_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/ToyRobot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ToyRobot_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Unlock_Failed_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Unlock_Failed_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/Vigor_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Vigor_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/WindChime_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WindChime_RTP.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/xiaomi/surya/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
     vendor/xiaomi/surya/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
@@ -300,23 +152,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
     vendor/xiaomi/surya/proprietary/vendor/firmware/aw8624_haptic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_haptic.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/aw8624_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw8624_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/bandage_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bandage_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/crawl_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/crawl_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/door_open_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/door_open_RTP.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/drv2624.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/drv2624.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/drv2624.rtp:$(TARGET_COPY_OUT_VENDOR)/firmware/drv2624.rtp \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_akm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_akm_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_awm_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_awm_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_dp28_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_dp28_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_m16a4_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_m16a4_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_mini14_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_mini14_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_p18c_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_p18c_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_qbz_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_qbz_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_s1897_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_s1897_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_ump9_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_ump9_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/firearms_vss_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/firearms_vss_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/grenade_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/grenade_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/grenade_explosion_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/grenade_explosion_RTP.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/xiaomi/surya/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/xiaomi/surya/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -324,41 +161,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/xiaomi/surya/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/xiaomi/surya/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/launcher_edit_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/launcher_edit_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/launcher_icon_selection_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/launcher_icon_selection_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/lockscreen_camera_entry_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/lockscreen_camera_entry_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/magazine_quick_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/magazine_quick_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/new_iconfolder_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/new_iconfolder_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/notification_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_cleanall_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/notification_remove_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_remove_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/notification_setting_close_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/notification_setting_close_rtp.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_huaxing_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_huaxing_fw.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_huaxing_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_huaxing_mp.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_tianma_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_tianma_fw.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/novatek_ts_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_tianma_mp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/offline_countdown_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/offline_countdown_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/osc_rtp_24K_5s.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/osc_rtp_24K_5s.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/pan_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/pan_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/punch_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/punch_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/scene_bomb_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_bomb_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/scene_bomb_injury_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_bomb_injury_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/scene_closeparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_closeparachute_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/scene_getshot_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_getshot_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/scene_jump_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_jump_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/scene_openparachute_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_openparachute_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/scene_step_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scene_step_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/scope_off_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scope_off_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/scope_on_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/scope_on_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/screenshot_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/screenshot_rtp.bin \
     vendor/xiaomi/surya/proprietary/vendor/firmware/tas256x_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tas256x_reg.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/task_cleanall_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/task_cleanall_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/uninstall_animation_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_animation_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/uninstall_dialog_rtp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/uninstall_dialog_rtp.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/vehicle_buggy_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_buggy_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/vehicle_collision_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_collision_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/vehicle_dacia_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_dacia_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/vehicle_moto_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_moto_RTP.bin \
-    vendor/xiaomi/surya/proprietary/vendor/firmware/vehicle_plane_RTP.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vehicle_plane_RTP.bin \
     vendor/xiaomi/surya/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/xiaomi/surya/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/xiaomi/surya/proprietary/vendor/lib/hw/audio.primary.sm6150.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sm6150.so \
