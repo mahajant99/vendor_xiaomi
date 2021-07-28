@@ -20,60 +20,44 @@
 
 mmap: arg2 in ~PROT_EXEC || arg2 in ~PROT_WRITE
 munmap: 1
+#prctl: arg0 == PR_SET_VMA || arg0 == PR_GET_DUMPABLE || arg0 == 0x37
 mprotect: arg2 in ~PROT_EXEC || arg2 in ~PROT_WRITE
-#prctl: arg0 == 0x37 /* PR_??? */ || arg0 == PR_SET_VMA || arg0 == PR_GET_DUMPABLE || arg0 == PR_SET_SECCOMP || arg0 == PR_CAP_AMBIENT || arg0 == PR_GET_NO_NEW_PRIVS || arg0 == PR_SET_DUMPABLE || arg0 == PR_GET_NAME || arg0 == PR_SET_PTRACER
-prctl: 1
-openat: 1
-read: 1
 futex: 1
+read: 1
+openat: 1
 close: 1
 fstat: 1
 readlinkat: 1
 newfstatat: 1
 mremap: 1
-fstatfs: 1
+clock_gettime: 1
 pread64: 1
-rt_sigprocmask: 1
+fstatfs: 1
 rt_sigaction: 1
 faccessat: 1
-#ioctl: arg1 == _IOC(_IOC_NONE
+rt_sigprocmask: 1
+#ioctl: arg1 == TCGETS || arg1 == BINDER_WRITE_READ || arg1 == BINDER_SET_MAX_THREADS || arg1 == BINDER_VERSION
 ioctl: 1
-clock_gettime: 1
 getrandom: 1
-nanosleep: 1
 fcntl: 1
 getuid: 1
-sigaltstack: 1
-socket: arg0 == AF_QIPCRTR || arg0 == AF_UNIX
-writev: 1
-execve: 1
-getpid: 1
-set_tid_address: 1
-sched_getscheduler: 1
-sigaltstack: 1
-sched_getaffinity: 1
-connect: 1
-pipe2: 1
-clone: 1
-ppoll: 1
-restart_syscall: 1
-exit: 1
+lseek: 1
 exit_group: 1
-rt_sigreturn: 1
-rt_tgsigqueueinfo: 1
-getppid: 1
-dup: 1
-capget: 1
-capset: 1
-setsid: 1
-setitimer: 1
-ptrace: 1
-recvmsg: 1
+sched_getaffinity: 1
+writev: 1
 exit: 1
+getpid: 1
+sigaltstack: 1
+getrlimit: 1
 restart_syscall: 1
+clone: 1
+sched_getscheduler: 1
+execve: 1
+socket: arg0 == AF_UNIX
+set_tid_address: 1
+rt_sigreturn: 1
+connect: 1
 gettid: 1
+setpriority: 1
+prctl: 1
 write: 1
-dup3: 1
-getdents64: 1
-getsockname: 1
-recvfrom: 1
